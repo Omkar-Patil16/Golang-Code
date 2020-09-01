@@ -1,4 +1,4 @@
-//Ultra mean the best package
+//Package ultra mean the best package
 package ultra
 
 // Sum function adds any given number of ints
