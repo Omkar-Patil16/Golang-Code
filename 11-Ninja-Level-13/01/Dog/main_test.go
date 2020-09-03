@@ -31,14 +31,14 @@ func ExampleYearsTwo() {
 func TestYearsTwo(t *testing.T) {
 	xn := YearsTwo(20)
 	if xn!=140{
-		fmt.Println("got ", xn ,"expected " , 140)
+		t.Error("got ", xn ,"expected " , 140)
 	}
 }
 
 func TestYears(t *testing.T) {
 	xn := Years(10)
 	if xn!=70{
-		fmt.Println("got ", xn ,"expected " , 70)
+		t.Error("got ", xn ,"expected " , 70)
 
 	}
 
